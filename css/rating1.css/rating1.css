@@ -1,0 +1,99 @@
+.rating1 {
+  background-color: var(--dBlue);
+  display: grid;
+  place-items: start;
+  padding: 3rem;
+  border-radius: 2.5rem;
+}
+
+.rating1 picture {
+  padding: 1.5rem;
+  background-color: #7c87983b;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}
+
+.rating1 h1 {
+  font-family: "Overpass";
+  font-weight: 700;
+  color: var(--w);
+  font-size: 2.8rem;
+  padding-bottom: 1.5rem;
+}
+
+.rating1 p {
+  font-family: "Overpass";
+  font-weight: 400;
+  color: var(--mGrey);
+  font-size: 1.5rem;
+  max-width: 35ch;
+  padding-bottom: 2rem;
+}
+
+.rating1 form {
+  display: grid;
+  place-self: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+}
+
+.rating1 .rating-buttons {
+  display: flex;
+  gap: 2.5rem;
+  place-content: center;
+}
+
+.rating1 .rating-buttons label {
+  font-family: "Overpass";
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--mGrey);
+  background-color: #7c87983b;
+  padding: 1rem 1.5rem;
+  border-radius: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.rating1 .rating-buttons .ratting1 {
+  padding: 1rem 1.7rem;
+}
+
+.rating1 .rating-buttons label:hover {
+  color: var(--w);
+  background-color: var(--mGrey);
+}
+
+.rating1 .rating-buttons input {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.rating1 .rating-buttons input:checked+label {
+  background: #fb7413;;
+  color: #ffffff;
+}
+
+h3 {
+  display: grid;
+  place-self: center;
+  max-width: max-content;
+  font-family: "Overpass";
+  color: var(--w);
+  background-color: var(--pOrange);
+  padding-block: 1.2rem;
+  padding-inline: 10rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3rem;
+  letter-spacing: 0.5rem;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+h3:hover {
+  color: var(--pOrange);
+  background-color: var(--w);
+}

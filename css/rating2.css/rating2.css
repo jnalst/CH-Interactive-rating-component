@@ -1,0 +1,40 @@
+.rating2 {
+  display: none;
+  background-color: var(--dBlue);
+  place-items: center;
+  border-radius: 2.5rem;
+  padding: 3rem;
+}
+
+.rating2 picture{
+  margin-bottom: 2rem;
+}
+
+.select-rating {
+  font-family: "Overpass";
+  background-color: #7c87983b;
+  padding-block: .3rem;
+  padding-inline: 1.5rem;
+  border-radius: 2rem;
+  color: var(--pOrange);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.rating2 h2 {
+  font-family: "Overpass";
+  font-weight: 700;
+  color: var(--w);
+  font-size: 2.4rem;
+  padding-bottom: 1.5rem;
+}
+
+.rating2 .rating2-text {
+  font-family: "Overpass";
+  font-weight: 400;
+  color: var(--mGrey);
+  font-size: 1.5rem;
+  max-width: 35ch;
+  padding-bottom: 2rem;
+  text-align: center;
+}

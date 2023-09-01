@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+  /* 10 px = 1 rem */
+  font-size: 62.5%;
+
+  /* colorPrimary */
+  --pOrange: #fb7413;
+  /* Neutral */
+  --w: #ffffff;
+  --lGrey: #959eac;
+  --mGrey: #7c8798;
+  --dBlue: #252d37;
+  --vDarkBlue: #121417;
+}
+
+/* CSS RESET */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--greenDark);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 2rem;
+}
+
+.container-bg {
+  background: var(--vDarkBlue);
+}
+
+button {
+  border: none;
+  text-decoration: none;
+}
