@@ -4,6 +4,7 @@
   place-items: start;
   padding: 3rem;
   border-radius: 2.5rem;
+  transition: all .5s;
 }
 
 .rating1 picture {

@@ -19,6 +19,7 @@
   color: var(--pOrange);
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  max-width: max-content;
 }
 
 .rating2 h2 {
@@ -37,4 +38,8 @@
   max-width: 35ch;
   padding-bottom: 2rem;
   text-align: center;
+}
+
+.rating2 span{
+  max-width: max-content;
 }

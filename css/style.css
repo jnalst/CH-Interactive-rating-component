@@ -1,6 +1,7 @@
 @import "./global/global.css";
 @import "./rating1.css/rating1.css";
 @import "./rating2.css/rating2.css";
+@import "./footer/footer.css";
 
 .attribution {
   font-size: 11px;
